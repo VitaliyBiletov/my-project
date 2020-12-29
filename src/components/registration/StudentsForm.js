@@ -82,11 +82,18 @@ export default class StudentsForm extends React.Component{
                                     </div>
                                     <div className="form-group col-md-6">
                                         <div className="text-center">
-                                            <img src="/src/img/template.svg" className="rounded" alt="Фото" width="200"
-                                                 height="200" />
+                                            <img
+                                                src='/src/img/template.svg'
+                                                className="rounded"
+                                                alt="Фото"
+                                                width="200"
+                                                height="200" />
                                         </div>
                                         <div className="form-file form-file-lg col-md-6 mt-3">
-                                            <input type="file" className="form-file-input" id="customFileLg" />
+                                            <input
+                                                type="file"
+                                                className="form-file-input"
+                                                id="customFileLg" />
                                         </div>
                                     </div>
 

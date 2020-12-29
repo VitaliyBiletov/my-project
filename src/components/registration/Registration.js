@@ -4,6 +4,7 @@ import StudentsForm from "./StudentsForm";
 import cn from 'classnames';
 import RegistrationForm from "./RegistrationForm";
 
+
 export default class Registration extends Component {
     constructor(props) {
         super(props);
