@@ -39,7 +39,6 @@ module.exports = {
         new webpack.ProvidePlugin({
             $: 'jquery',
         }),
-        new CleanWebpackPlugin(),
         new CleanWebpackPlugin({cleanStaleWebpackAssets: false})
     ]
 };
