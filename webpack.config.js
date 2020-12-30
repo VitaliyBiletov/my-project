@@ -40,5 +40,6 @@ module.exports = {
             $: 'jquery',
         }),
         new CleanWebpackPlugin(),
+        new CleanWebpackPlugin({cleanStaleWebpackAssets: false})
     ]
 };
